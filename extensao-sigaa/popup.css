@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  width: 500px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 4px;
+  text-align: center;
+  height: 20px;
+}
+th {
+  background-color: #f2f2f2;
+}
+td.horario-preenchido {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  font-size: 10px; 
+  overflow: hidden; 
+  white-space: nowrap;
+}
