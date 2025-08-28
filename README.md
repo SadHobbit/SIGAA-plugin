@@ -1,53 +1,40 @@
-# Melhora Horários SIGAA - UFBA
+# Melhora Horários SIGAA UFBA
 
-Uma extensão de navegador simples e leve para traduzir os códigos de horário do sistema SIGAA da UFBA para um formato mais claro e legível, facilitando a vida do estudante na hora da matrícula.
+Uma extensão de navegador para facilitar a vida dos estudantes da UFBA, traduzindo os códigos de horário do SIGAA e exibindo uma grade visual das turmas selecionadas.
 
----
+![Tradução de Horários na Página do SIGAA](./assets/traducao_horario.png)
+_Tradução automática dos horários na própria página de matrícula._
 
-### 🧐 O Problema
+![Popup com a Grade de Horários](./assets/popup_sigaa.png)
+_Popup com a grade visual das turmas selecionadas, mostrando os códigos das matérias._
 
-O sistema SIGAA da UFBA apresenta os horários das turmas em um formato codificado (ex: `24T12`, `6M1234`) que não é nada intuitivo. Isso pode dificultar a organização visual e a tomada de decisão rápida durante o estressante período de matrícula online.
+## ✨ Funcionalidades
 
-### ✨ A Solução
+- ✅ **Tradução Automática de Horários:** Chega de decifrar códigos! A extensão converte formatos complexos como `24T12` para um texto claro e legível: `Segunda e Quarta (Tarde) - 13:00 - 14:50`.
+- 📅 **Grade de Horários Visual:** Conforme você seleciona as turmas na página de matrícula, a extensão monta sua grade de horários. Clique no ícone da extensão para abrir um popup e ver visualmente como sua semana ficará, ajudando a evitar conflitos de horário.
 
-Esta extensão atua diretamente na página de "Turmas Abertas" do SIGAA, encontrando esses códigos e os substituindo por uma descrição completa e de fácil entendimento.
+## 🚀 Instalação
 
-Por exemplo, o código `24T12` é transformado em:
-**Segunda e Quarta (Tarde) - Horários: 1º, 2º**
+Como a extensão ainda não está na Chrome Web Store, ela pode ser instalada manualmente em navegadores baseados no Chromium (Google Chrome, Brave, Edge, etc.).
 
-Isso permite uma visualização muito mais clara e rápida da grade de horários, ajudando os estudantes a montar a melhor grade possível sem confusão.
+1.  **Faça o download do projeto:**
+    - Clique no botão verde "**<> Code**" no topo desta página e depois em "**Download ZIP**".
+    - Descompacte o arquivo `.zip` em uma pasta no seu computador.
 
-### 🚀 Funcionalidades
+2.  **Instale a extensão no navegador:**
+    - Abra seu navegador e acesse a página de extensões: `chrome://extensions`
+    - Ative o **"Modo de desenvolvedor"** (geralmente um interruptor no canto superior direito).
+    - Clique no botão **"Carregar sem compactação"** (Load unpacked).
+    - Selecione a **pasta** para onde você descompactou os arquivos do projeto.
+    - Pronto! O ícone da extensão deve aparecer na sua barra de ferramentas. (Talvez seja necessário fixá-lo clicando no ícone de quebra-cabeça 🧩).
 
-* **Conversão Automática:** A tradução dos horários acontece assim que a página de matrícula é carregada.
-* **Leve e Rápida:** Não deixa seu navegador lento.
-* **Focada em Privacidade:** A extensão não coleta ou armazena nenhum tipo de dado do usuário.
-* **Código Aberto:** Totalmente gratuito e com o código disponível para quem quiser ver ou contribuir.
+## 💡 Como Usar
 
-### ⚙️ Como Instalar (Via GitHub)
+1.  Acesse a página de **Matrícula On-Line** no SIGAA da UFBA.
+2.  A extensão irá traduzir os horários das turmas automaticamente.
+3.  Marque os checkboxes das turmas que você tem interesse em cursar.
+4.  Clique no ícone da extensão na barra de ferramentas para abrir o popup e ver sua grade de horários sendo montada em tempo real!
 
-Como esta extensão não está na Chrome Web Store, a instalação é manual. Mas não se preocupe, é bem simples!
+## 🤝 Contribuição
 
-1.  **Baixe o Código:**
-    * Clique no botão verde `Code` no topo desta página.
-    * Selecione `Download ZIP`.
-
-2.  **Descompacte o Arquivo:**
-    * Encontre o arquivo `.zip` que você baixou e extraia o conteúdo para uma pasta em um local de fácil acesso no seu computador.
-
-3.  **Instale no Chrome (ou navegador compatível):**
-    * Abra o Google Chrome e digite `chrome://extensions` na barra de endereço.
-    * No canto superior direito da tela, ative o **"Modo de desenvolvedor"**.
-    * Novos botões aparecerão. Clique em **"Carregar sem compactação"**.
-    * Uma janela se abrirá. Selecione a **pasta** que você extraiu no passo 2.
-
-Pronto! A extensão estará instalada e ativa no seu navegador.
-
-### 💻 Como Usar
-
-É simples: não precisa fazer nada!
-Após a instalação, basta acessar a página de matrícula do SIGAA UFBA que os horários já aparecerão no formato legível. A conversão é feita automaticamente.
-
-### 🤝 Como Contribuir
-
-Achou um bug ou tem uma ideia para melhorar a extensão? Sinta-se à vontade para abrir uma **issue** para reportar problemas ou sugerir melhorias. *Pull requests* também são muito bem-vindos!
+Contribuições são muito bem-vindas! Se você tem ideias para novas funcionalidades, melhorias ou encontrou algum problema, sinta-se à vontade para abrir uma **Issue** ou enviar um **Pull Request**.
