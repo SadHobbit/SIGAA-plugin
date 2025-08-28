@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Melhora Horários SIGAA UFBA",
+  "version": "1.0",
+  "description": "Converte os códigos de horário do SIGAA para um formato mais legível.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.ufba.br/sigaa/graduacao/matricula/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
