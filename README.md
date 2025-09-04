@@ -35,6 +35,24 @@ Como a extensão ainda não está na Chrome Web Store, ela pode ser instalada ma
 3.  Marque os checkboxes das turmas que você tem interesse em cursar.
 4.  Clique no ícone da extensão na barra de ferramentas para abrir o popup e ver sua grade de horários sendo montada em tempo real!
 
+### ❗ Solução de Problemas Comuns
+
+> **Erro: "Arquivo de manifesto ausente ou ilegível"**
+>
+> Este erro é muito comum e fácil de resolver. Ao baixar o projeto como ZIP, o GitHub cria uma pasta extra. A estrutura fica `SIGAA-plugin-main/SIGAA-plugin-main/`.
+
+    Downloads/
+        └── SIGAA-plugin-main/  <-- Você provavelmente está tentando carregar esta pasta
+            └── SIGAA-plugin-main/  <-- A pasta correta com os arquivos está AQUI DENTRO
+                └── extensao-sigaa/   <-- Carregue essa pasta INTEIRA
+                    ├── manifest.json
+                    ├── content.js
+                    ├── popup.html
+                    ├── assets/
+                    └── icons/
+>
+> **A solução é selecionar a pasta de dentro** ao clicar em "Carregar sem compactação". Certifique-se de que você está selecionando a pasta que contém diretamente o arquivo `manifest.json`.
+
 ## 🤝 Contribuição
 
 Contribuições são muito bem-vindas! Se você tem ideias para novas funcionalidades, melhorias ou encontrou algum problema, sinta-se à vontade para abrir uma **Issue** ou enviar um **Pull Request**.
